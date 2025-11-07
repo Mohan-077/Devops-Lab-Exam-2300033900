@@ -41,4 +41,4 @@ jobs:
           context: ./reactexamapp
           file: ./reactexamapp/frontend.Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/ansible-labexam-frortend:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/ansible-labexam-frontend:latest
